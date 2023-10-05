@@ -1,0 +1,58 @@
+/* Agrega aquí tus estilos CSS personalizados */
+
+/* Estilo para la sección de Presentación */
+#presentacion {
+    height: 100vh; /* Ocupa toda la pantalla vertical */
+    background-color: rgba(0, 0, 0, 0.6); /* Fondo transparente ligeramente oscuro */
+    background-blur: blur(10px); /* Agrega un efecto de desenfoque */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#presentacion .container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#presentacion h1, #presentacion p {
+    color: black;
+    font-weight: bold;
+}
+
+
+/* Estilo para la sección de Conocimientos y Habilidades */
+#habilidades {
+    background-color: #ffffff;
+    padding: 60px 0;
+}
+
+/* Estilo para las barras de progreso */
+.progress {
+    height: 20px;
+    margin-bottom: 10px;
+}
+
+.progress-bar {
+    text-align: right;
+    padding-right: 10px;
+}
+
+
+/* Estilo para la sección de Mis Proyectos */
+#proyectos {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+/* Estilo para la sección de Datos de Contacto */
+#contacto {
+    background-color: #ffffff;
+    padding: 60px 0;
+}
+
+/* Estilo para el footer */
+footer {
+    margin-top: 30px;
+    padding: 15px 0;
+}
